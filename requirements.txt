@@ -1,0 +1,18 @@
+# Core dependencies
+numpy>=1.23.0
+scipy>=1.9.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Bioinformatics
+pysam>=0.19.0
+pyvcf>=0.6.8
+
+# Statistical and visualization
+statsmodels>=0.13.0
+scikit-learn>=1.1.0
+
+# Development
+jupyter>=1.0.0
+black>=22.0.0
