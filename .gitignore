@@ -45,3 +45,35 @@ Thumbs.db
 # Large data directories (optional - keep if you want to exclude raw data)
 data/raw/
 tmp/
+
+# Large VCF files (use Git LFS or exclude)
+*.vcf
+*.vcf.gz
+*.bam
+*.sam
+*.fastq
+*.fastq.gz
+
+# Processed data archives
+results/processed/*.csv
+!results/processed/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
