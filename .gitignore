@@ -1,0 +1,47 @@
+# Python
+*.pyc
+__pycache__/
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large)
+*.fastq
+*.bam
+*.sam
+*.vcf.gz
+*.vcf.gz.tbi
+*.bigWig
+*.bed.gz
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Environment
+.env
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data directories (optional - keep if you want to exclude raw data)
+data/raw/
+tmp/
